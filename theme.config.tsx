@@ -9,7 +9,7 @@ const config: DocsThemeConfig = {
   chat: {
     link: 'https://discord.com',
   },
-  docsRepositoryBase: 'https://github.com/bihorco36/ratrac-wiki',
+  docsRepositoryBase: 'https://github.com/bihorco36/ratrac-wiki/tree/main',
   footer: {
     text: 'Ratrac Wiki',
   },
