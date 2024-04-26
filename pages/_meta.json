@@ -1,9 +1,15 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
-  }
+  "index": {
+    "title": "Home",
+    "theme": {
+      "breadcrumb": false
+    }
+  },
+  "current_season": "Aktuelle Saison",
+  "tactics": "Taktik",
+  "trainings": "Trainings",
+  "mental": "Mental Game",
+  "strength": "Kraft und Ausdauer",
+  "divers":{ "title": "Diverses", "display": "hidden"},
+  "archive":{ "title": "Archiv", "display": "hidden"}
 }
