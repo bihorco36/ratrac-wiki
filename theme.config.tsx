@@ -25,7 +25,7 @@ const config: DocsThemeConfig = {
   primarySaturation: { light: 90, dark: 60 },
   docsRepositoryBase: "https://github.com/bihorco36/ratrac-wiki/tree/main",
   sidebar: {
-    defaultMenuCollapseLevel: 1,
+    defaultMenuCollapseLevel: 2,
     toggleButton: true
   },
   footer: {
