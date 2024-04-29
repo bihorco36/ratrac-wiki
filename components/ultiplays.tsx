@@ -2,6 +2,6 @@
 
 export default function Ultiplays(props: any) {
   return (
-      <iframe width="450px" height="300px" src={props.link} allowFullScreen></iframe>
+      <iframe width="100%" height="250px" src={props.link} allowFullScreen></iframe>
   )
 }

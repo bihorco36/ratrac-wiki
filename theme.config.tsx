@@ -24,6 +24,10 @@ const config: DocsThemeConfig = {
   primaryHue: 360,
   primarySaturation: { light: 90, dark: 60 },
   docsRepositoryBase: "https://github.com/bihorco36/ratrac-wiki/tree/main",
+  sidebar: {
+    defaultMenuCollapseLevel: 1,
+    toggleButton: true
+  },
   footer: {
     text: "Ratrac Wiki",
   },
