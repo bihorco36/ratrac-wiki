@@ -1,5 +1,6 @@
 import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
+import { Analytics } from "@vercel/analytics/react"
 
 const config: DocsThemeConfig = {
   logo: (
@@ -29,7 +30,7 @@ const config: DocsThemeConfig = {
     toggleButton: true
   },
   footer: {
-    text: "Ratrac Wiki",
+    text: (<><Analytics /> Ratrac Wiki</>),
   },
   head: (
     <>
