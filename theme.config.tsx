@@ -37,7 +37,7 @@ const config: DocsThemeConfig = {
       <link
         rel="shortcut icon"
         type="image/x-icon"
-        href={"/images/raettu_logo_white.svg"}
+        href={"/images/red_r.svg"}
       />
     </>
   ),
