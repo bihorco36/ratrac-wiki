@@ -1,6 +1,7 @@
 import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
 import { Analytics } from "@vercel/analytics/react"
+import { useRouter } from "next/router";
 
 const config: DocsThemeConfig = {
   logo: (
@@ -25,6 +26,14 @@ const config: DocsThemeConfig = {
   primaryHue: 360,
   primarySaturation: { light: 90, dark: 60 },
   docsRepositoryBase: "https://github.com/bihorco36/ratrac-wiki/tree/main",
+  useNextSeoProps() {
+    const { asPath } = useRouter()
+      if (asPath !== '/') {
+        return {
+          titleTemplate: '%s – Ratrac Wiki'
+        }
+      }
+  },
   sidebar: {
     defaultMenuCollapseLevel: 1,
     toggleButton: true
