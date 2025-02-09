@@ -1,6 +1,5 @@
 {
-  "systems": "Spielsystem",
-  "playbook": "Playbook",
+  "lingo": "Lingo",
   "defence": "Defence",
-  "zones": "Zonen"
+  "offence": "Offence"
 }
