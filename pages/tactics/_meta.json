@@ -1,7 +1,5 @@
 {
   "lingo": "Lingo",
-  "systems": "Spielsystem",
-  "playbook": "Playbook",
   "defence": "Defence",
-  "zones": "Zonen"
+  "offence": "Offence"
 }
