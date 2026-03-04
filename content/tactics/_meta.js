@@ -1,0 +1,5 @@
+export default {
+  lingo: 'Lingo',
+  defence: 'Defence',
+  offence: 'Offence',
+}

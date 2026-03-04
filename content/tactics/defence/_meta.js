@@ -1,0 +1,6 @@
+export default {
+  marks: 'Marking',
+  zones: 'Zonen',
+  brackets: 'Brackets',
+  switches: 'Switches',
+}
