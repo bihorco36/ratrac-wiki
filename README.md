@@ -1,15 +1,24 @@
 # Ratrac Wiki
 
-This is the official Ratrac Wiki
-
-## Quick Start
-
-### Markdown Cheatsheet
-
-https://www.markdownguide.org/cheat-sheet/
+This is the official Ratrac Wiki.
 
 ## Local Development
 
-First, run `pnpm i` to install the dependencies.
+Install dependencies and start the dev server:
 
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
+```bash
+pnpm i
+pnpm dev
+```
+
+Then open [localhost:3000](http://localhost:3000).
+
+## Adding Content
+
+Pages are written in MDX (Markdown + React components) and live in the `content/` directory. Navigation is configured via `_meta.js` files in each folder.
+
+For a Markdown syntax reference, see the [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/).
+
+## License
+
+MIT
